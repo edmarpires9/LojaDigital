@@ -5,6 +5,7 @@
 
 <ul>
   <p><strong>Construção do aplicativo</strong></p>
-  <li>npm init -y</li>
+  <li>npm install --save-dev nodemon -live reload, node_modules, packge-lock.json</li>
+  <li>npm init -y - package.json</li>
   <li>Instalação do nodejs v21.5.0</li>
 </ul>
