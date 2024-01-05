@@ -4,8 +4,8 @@
   "description": "<h2 align=center>Loja digital v0.0.0 🤖💬 </h2>\r <div align=center>\r   <p>Olá, meu nome é Edmar Chagas Pires.</p>\r   <p>Trabalho 6x dias de eletricista e 3x dias de programador freelancer buscando uma oportunidade como programador CLT.</p>\r </div>",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node index.js",
+    "start": "node server.js",
+    "dev": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
