@@ -5,6 +5,8 @@
 
 <ul>
   <p><strong>Construção do aplicativo</strong></p>
+  <li>npx tsc --init - create tsconfig.json for nodejs support typescript</li>
+  <li>npm install typescript - enable suport typescript</li>
   <li>npm install --save-dev nodemon -live reload, node_modules, packge-lock.json</li>
   <li>npm init -y - package.json</li>
   <li>Instalação do nodejs v21.5.0</li>
