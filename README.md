@@ -10,7 +10,7 @@
 |----------|----------|----------|
 | Suporte a Typescript | npx tsc --init | tsconfig.json |
 | Suporte a Typescript | npm install typescript | node_modules |
-| GitBash ignorar a pasta node_modules | type nul > .gitignore | 
+| GitBash ignorar a pasta node_modules | type nul > .gitignore | .gitignore |
 | Hot realod via NodeMon | npm install --save-dev nodemon | package-lock.json|
 | Scripts de dependencia, e atalho para comandos do terminal| npm init -y| package.json|
 | Javascript server side | | NodeJS 21.5.0.exe |
