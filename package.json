@@ -2,10 +2,10 @@
   "name": "lojadigital",
   "version": "1.0.0",
   "description": "<h2 align=center>Loja digital v0.0.0 🤖💬 </h2>\r <div align=center>\r   <p>Olá, meu nome é Edmar Chagas Pires.</p>\r   <p>Trabalho 6x dias de eletricista e 3x dias de programador freelancer buscando uma oportunidade como programador CLT.</p>\r </div>",
-  "main": "index.js",
+  "main": "crud.ts",
   "scripts": {
-    "start": "nodemon .\\core\\crud.js",
-    "dev": "nodemon .\\core\\crud.js",
+    "start": "npx ts-node .\\core\\crud.ts",
+    "dev": "nodemon --ext ts,tsx --exec start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,6 +15,7 @@
     "nodemon": "^3.0.2"
   },
   "dependencies": {
+    "@types/node": "^20.10.6",
     "typescript": "^5.3.3"
   }
 }
