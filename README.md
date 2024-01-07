@@ -1,13 +1,16 @@
-<h2 align=center>Loja digital v0.0.0 🤖💬 </h2>
-<div align=center>
-  <p>Olá, meu nome é Edmar Chagas Pires. <br> Me sustento trabalhando 6 dias seguidos como eletricista e 3 dias como freelancer porém buscando um emprego de programador CLT.</p>
-</div>
+<h2 align="center"><em>Loja digital - v2</em></h2>
+<li>Olá bem vindo ao projeto "Loja Digital" um aplicativo desenvolvido para "rodar" na rede local do estabelecimento trazendo a velocidade de transferência de dados ao maximo da banda 5ghz ou 2.4ghz do roteador visto que a rede local não depende de provedor. Feito para Windows, linux, android, iphone.</li>
 
-<ul>
-  <p><strong>Construção do aplicativo</strong></p>
-  <li>npx tsc --init - create tsconfig.json for nodejs support typescript</li>
-  <li>npm install typescript - enable suport typescript</li>
-  <li>npm install --save-dev nodemon -live reload, node_modules, packge-lock.json</li>
-  <li>npm init -y - package.json</li>
-  <li>Instalação do nodejs v21.5.0</li>
-</ul>
+</li><strong>Andamento do projeto</strong></li>
+<li>Etapa 1 - CRUD em typescript</li>
+
+##
+
+| <em>Melhoria</em> | <em>Terminal</em> | <em>Arquivos</em> |
+|----------|----------|----------|
+| Suporte a Typescript | npx tsc --init | tsconfig.json |
+| Suporte a Typescript | npm install typescript | node_modules |
+| GitBash ignorar a pasta node_modules | type nul > .gitignore | 
+| Hot realod via NodeMon | npm install --save-dev nodemon | package-lock.json|
+| Scripts de dependencia, e atalho para comandos do terminal| npm init -y| package.json|
+| Javascript server side | | NodeJS 21.5.0.exe |
